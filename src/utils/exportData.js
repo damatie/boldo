@@ -4,6 +4,12 @@ import Post3 from "../../public/blog-3.svg"
 import User1 from "../../public/ts-1.svg"
 import User2 from "../../public/ts-4.svg"
 import User3 from "../../public/ts-5.svg"
+import T1 from "../../public/team-1.svg"
+import T2 from "../../public/team-2.svg"
+import T3 from "../../public/team-3.svg"
+import V1 from "../../public/v-1.svg"
+import V2 from "../../public/v-2.svg"
+import V3 from "../../public/v-3.svg"
 
 
 export const listAcc = [
@@ -47,4 +53,43 @@ export const blogPost = [
   userName:"Monica Geller",
   url:"#"
   }
+]
+
+export const teams = [
+  {
+    name: 'Michael Scott',
+    position: 'General Manager',
+    img:T1
+  },
+  {
+    name: 'Dwight Schrute',
+    position: 'General Manager',
+    img:T2
+  },
+  {
+    name: 'MPam Beetsley',
+    position: 'General Manager',
+    img:T3
+  }
+]
+
+export const valuesList = [
+  {
+    title: 'We are commited.',
+    text: 'Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. ',
+    img:V1
+  },
+  {
+    title: 'We are responsible.',
+    text: 'Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration. ',
+    img:V2
+  },
+  
+  {
+    title: 'We aim for progress.',
+    text: 'Conversion angel investor entrepreneur first mover advantage. Handshake infographic mass market crowdfunding iteration.',
+    img:V3
+  },
+  
+  
 ]
