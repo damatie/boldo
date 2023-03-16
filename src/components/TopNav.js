@@ -83,7 +83,7 @@ export const MobilNav = ({isLight, handleMobileNav}) => {
         <Icon
           onClick={()=>handleMobileNav(false)}
           icon="material-symbols:close-rounded"
-          className={` cursor-pointer block lg:hidden text-[50px] mb-5  ${isLight? ' text-primary':' text-white'}`}
+          className={` cursor-pointer block lg:hidden text-[50px] mb-5 text-primary`}
         />
           {navList.map((item, index) => (
             <Link  href={`/${item.page}`} key={index}>
