@@ -13,7 +13,7 @@ const CtaCard = () => {
               <div className=" flex flex-col mt-16 md:mt-7 px-5 lg:flex-row justify-center lg:mt-[47px] items-center gap-3 lg:gap-4">
               <input
                 placeholder="Your email address"
-                className="h-[56px] px-8 w-full mb-2 xl:mb-0 rounded-full outline-none md:max-w-[370px] placeholder:text-xl placeholder:text-black "
+                className="h-[56px] bg-white px-8 w-full mb-2 xl:mb-0 rounded-full outline-none md:max-w-[370px] placeholder:text-xl placeholder:text-black "
                 type="text"
               />
               <Button
