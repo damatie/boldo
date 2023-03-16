@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const TeamCard = ({img, name, position}) => {
   return (
-    <div className=" max-w-[300px] h-[470px] flex flex-col">
+    <div className=" max-w-[300px] mx-auto h-[470px] flex flex-col">
       <div className=" cursor-pointer h-[354px] w-full  rounded-[24px] transition ease-in-out delay-150  hover:-translate-y-3 hover:scale-100 hover: duration-300">
       <Image
           src={img}

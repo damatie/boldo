@@ -8,7 +8,7 @@ const ServicesCard = ({
   url
 }) => {
   return (
-    <div className={` max-w-[300px] h-[563px] flex flex-col mx-auto mb-10`}>
+    <div className={` max-w-[300px] h-[563px] flex flex-col mb-10`}>
       <div className="w-full flex flex-col h-[354px] rounded-[24px] ">
           <Image
             src={img}
@@ -22,7 +22,7 @@ const ServicesCard = ({
         <p className=" text-primaryGray text-xl">
          {text}
         </p>
-        <button className=" flex mt-6 font-open-sans font-bold text-xl text-primary border-b py-2.5
+        <button className=" transition ease-in-out delay-150  hover:-translate-y-2 hover:scale-100 hover: duration-300 flex mt-6 font-open-sans font-bold text-xl text-primary border-b py-2.5
         border-primary
         ">
           <span>Explore page</span>

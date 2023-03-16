@@ -4,9 +4,9 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <>
-      <div className=" flex flex-col w-full xl:w-[1400px] px-10 min-h-[474px] xl:pl-[50px] 2xl:pl-[100px] xl:pr-[179px] pt-[70px]  xl:pt-[100px]">
-        <div className=" flex w-full flex-col lg:flex-row  justify-between">
-          <div className="font-open-sans mb-10 xl:mb-0">
+      <div className=" xl:w-[1200px] mx-auto flex flex-col px-10 xl:px-0 min-h-[474px] pt-[70px]  xl:pt-[100px]">
+        <div className=" flex w-full flex-col lg:flex-row  ">
+          <div className=" xl:w-[300px] font-open-sans mb-10 xl:mb-0 xl:mr-[179px]">
             <p className=" mb-10">
                <Image
                 src={Logo}
@@ -17,7 +17,7 @@ const Footer = () => {
               Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.
             </p>
           </div>
-          <div className="xl:pl-[200px] flex-col flex md:flex-row flex-1 justify-between ">
+          <div className="  xl:max-w-[642px] flex-col flex md:flex-row flex-1 justify-between ">
              <div className=" font-open-sans text-center lg:text-left mb-[40px] text-primaryGray">
             <p className=" font-bold text-primary text-xl mb-[30px] xl:mb-[50px] ">
               Landings
@@ -51,8 +51,11 @@ const Footer = () => {
               </li>
               </a>
               <a href="#" className=" hover:text-primary">
-                <li>
-                Careers
+                <li className=" flex   items-center flex-col xl:flex-row">
+                    Careers
+                    <span className="mt-2 lx:mt-0 animate-bounce ml-3 w-[72px] h-[30px] flex flex-col justify-center items-center rounded-full text-[13px] bg-[#65E4A3] font-bold text-primary">
+                      Hiring!
+                    </span>
               </li>
               </a>
               <a href="#" className=" hover:text-primary">
@@ -67,7 +70,7 @@ const Footer = () => {
               Resources
             </p>
              <ul className=" text-xl h-[150px]  flex flex-col justify-between ">
-              <a href="#" className=" hover:text-primary">
+              <a href="/blog" className=" hover:text-primary">
                 <li>
                 Blog 
               </li>
@@ -85,9 +88,8 @@ const Footer = () => {
               </ul>
           </div>
          </div>
-
         </div>
-        <div className=" w-full font-open-sans text-base text-center lg:text-left mb-[40px] text-primaryGray">
+        <div className=" -mt-10 w-full xl:w-auto font-open-sans text-base text-center lg:text-left mb-[40px] text-primaryGray">
           <p>
             All rights reserved.
           </p>
