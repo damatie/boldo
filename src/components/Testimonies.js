@@ -80,7 +80,7 @@ const Testimonies = () => {
     } = rest;
     // console.log(onClick)
   // onMove means if dragging or swiping in progress.
-  return (<div className=" flex absolute -top-16  md:-top-20 xl:-top-32 right-0 flex-row flex-1 justify-end space-x-5 xl:space-x-7 mb-14">
+  return (<div className=" flex absolute -top-16  md:-top-20 xl:-top-32 right-5 lg:right-0 object-contain flex-row flex-1 justify-end space-x-5 xl:space-x-7 mb-14">
         <button
           onClick={() => previous()}
           className=" cursor-pointer btn text-primary xl:h-[72px] xl:w-[72px] border-primary hover:bg-white bg-white btn-circle">
@@ -94,7 +94,7 @@ const Testimonies = () => {
     </div>);
 };
   return (
-  <div className=" flex flex-col  w-[350px] md:w-[700px]  lg:w-[700px] xl:w-full relative mt-[100px]  md:mt-[75px]  mx-auto">
+  <div className=" flex flex-col pr-3 lg:pr-auto  w-[340px] sm:[650px] md:w-[700px]  lg:w-[700px] xl:w-full relative mt-[100px]  md:mt-[75px]  mx-auto">
       <Carousel
         responsive={responsive}
         arrows={false}
@@ -103,7 +103,7 @@ const Testimonies = () => {
       >
        {testimonies.slice(initial,current).map((item, index) => (
           <div key={index} className=" font-open-sans bg-white mr-3 rounded-[12px] max-w-[350px] p-[40px] ">
-          <p className=" font-open-sans text-2xl">
+          <p className=" font-open-sans text-xl lg:text-2xl">
            {item.text}
           </p>
           <div className=" flex flex-row mt-10 space-x-4  items-center">

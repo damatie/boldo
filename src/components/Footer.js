@@ -17,7 +17,7 @@ const Footer = () => {
               Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.
             </p>
           </div>
-          <div className="xl:pl-[200px] flex flex-row flex-1 justify-between ">
+          <div className="xl:pl-[200px] flex-col flex md:flex-row flex-1 justify-between ">
              <div className=" font-open-sans text-center lg:text-left mb-[40px] text-primaryGray">
             <p className=" font-bold text-primary text-xl mb-[30px] xl:mb-[50px] ">
               Landings
