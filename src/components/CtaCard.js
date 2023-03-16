@@ -8,7 +8,7 @@ const CtaCard = () => {
           <div className=" w-full z-30">
             <TextH1
               text={"An enterprise template to ramp up your company website"}
-              textStyle={'xl:max-w-[716px] text-center mx-auto '}
+              textStyle={'xl:max-w-[716px] text-center mx-auto h-auto mb-5 xl:mb-0 '}
             />
               <div className=" flex flex-col mt-16 md:mt-7 px-5 lg:flex-row justify-center lg:mt-[47px] items-center gap-3 lg:gap-4">
               <input
