@@ -61,7 +61,7 @@ const TopNav = ({ isLight = false }) => {
           />
         <Button
           label={'Log In'}
-          btnStyle={` hidden lg:block ${isLight? '!border-2 border-primary':''}`}
+          btnStyle={` hidden lg:block !border-2 border-primary`}
             />
       </div>
       </div>
