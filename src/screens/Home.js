@@ -54,7 +54,7 @@ const HomeScreen = () => {
           img={con2}
         />
       </section>
-      <section className=" flex flex-col  lg:py-16 xl:pb-14  px-5 md:px-16 xl:px-0 md:h-[720px] lg:h-[767px] bg-primary ">
+      <section className=" flex flex-col h-auto mb-5 xl:mb-0 lg:py-16 xl:pb-14  px-5 md:px-16 xl:px-0 md:h-[720px] lg:h-[767px] bg-primary ">
         <div className="xl:w-[1110px] mx-auto mt-[40px] md:mt-[80px] xl:mt-[40px]">
           <TextH1
           text={'An enterprise template to ramp up your company website'}
