@@ -1,16 +1,43 @@
 import Post1 from "../../public/blog-1.svg"
 import Post2 from "../../public/blog-2.svg"
 import Post3 from "../../public/blog-3.svg"
+import Post4 from "../../public/blog-4.svg"
 import User1 from "../../public/ts-1.svg"
 import User2 from "../../public/ts-4.svg"
 import User3 from "../../public/ts-5.svg"
+import User4 from "../../public/ts-6.svg"
 import T1 from "../../public/team-1.svg"
 import T2 from "../../public/team-2.svg"
 import T3 from "../../public/team-3.svg"
 import V1 from "../../public/v-1.svg"
 import V2 from "../../public/v-2.svg"
 import V3 from "../../public/v-3.svg"
+import sImg1 from '../../public/s-1.svg'
+import sImg2 from '../../public/s-2.svg'
+import sImg3 from '../../public/s-3.svg'
 
+
+
+export const services = [
+    {
+      title: 'Cool feature title',
+      img: sImg1,
+      text: ' Learning curve network effects return on investment.',
+      url: '#',
+    },
+      {
+      title: 'Even cooler feature',
+      img: sImg2,
+      text: ' Learning curve network effects return on investment.',
+      url: '#',
+    },
+        {
+      title: 'Cool feature title',
+      img: sImg3,
+      text: ' Learning curve network effects return on investment.',
+      url: '#',
+    }
+  ]
 
 export const listAcc = [
     {
@@ -26,6 +53,7 @@ export const listAcc = [
 ]
   
 export const blogPost = [
+  
   {
   category:"Category",
   date:"November 22, 2021",
@@ -52,7 +80,64 @@ export const blogPost = [
   userImg:User3,
   userName:"Monica Geller",
   url:"#"
-  }
+  },
+  
+  {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post4,
+  text:"Pitch termsheet backing validation focus release.",
+  userImg:User4,
+  userName:"Chandler Bing",
+  url:"#"
+  },
+      {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post2,
+  text:"Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
+  userImg:User2,
+  userName:"Rachel Green",
+  url:"#"
+  },
+  {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post3,
+  text:"Beta prototype sales iPad gen-z marketing network effects value proposition",
+  userImg:User3,
+  userName:"Monica Geller",
+  url:"#"
+  },
+  {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post3,
+  text:"Beta prototype sales iPad gen-z marketing network effects value proposition",
+  userImg:User3,
+  userName:"Monica Geller",
+  url:"#"
+  },
+  
+  {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post4,
+  text:"Pitch termsheet backing validation focus release.",
+  userImg:User4,
+  userName:"Chandler Bing",
+  url:"#"
+  },
+  
+  {
+  category:"Category",
+  date:"November 22, 2021",
+  img:Post4,
+  text:"Pitch termsheet backing validation focus release.",
+  userImg:User4,
+  userName:"Chandler Bing",
+  url:"#"
+  },
 ]
 
 export const teams = [
