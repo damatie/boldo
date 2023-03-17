@@ -64,7 +64,7 @@ const HomeScreen = () => {
         </div>
       </section>
       <section className=" bg-white lg:py-24 py-8 md:py-14  px-5 md:px-16 xl:pb-20 xl:px-0 ">
-        <div className=" bg-slate-100 xl:w-[1100px] xl:h-[403px] mx-auto rounded-[24px] mt-[30px]">
+        <div className=" xl:w-[1100px] xl:h-[403px] mx-auto rounded-[24px] mt-[30px]">
           <Image
           src={hr1}
             alt="image"
