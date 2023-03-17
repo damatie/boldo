@@ -15,7 +15,7 @@ const ServicesCardRow = ({
   ]
   return (
     <div className={` flex flex-col xl:flex-row mx-auto mb-10 xl:w-[1100px] items-center  justify-between`}>
-      <div className="xl:w-[494px] flex flex-col xl:h-[610px] rounded-[24px] ">
+      <div className="xl:w-[494px] bg-slate-100 flex flex-col xl:h-[610px] rounded-[24px] ">
           <Image
             src={img}
           alt="services"

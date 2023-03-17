@@ -49,7 +49,7 @@ const ServicesCardSecondRow = ({
          ))}
         </div>
       </div>
-        <div className=" xl:w-[444px] flex flex-col xl:h-[692px] rounded-[24px] ">
+        <div className="bg-slate-100 xl:w-[444px] flex flex-col xl:h-[692px] rounded-[24px] ">
           <Image
             src={img}
           alt="services"
